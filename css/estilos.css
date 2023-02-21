@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(24, 17, 41); 
+}
+.nav-link--color {
+    color: white;
+}
+body {
+    background-image: url("../assets/img/FONDO.jpg");
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+.container__tituloprincipal {
+    font-family: 'Electrolize', sans-serif;
+    background-image: url(../assets/img/Imagen\ de\ WhatsApp\ 2023-01GGG-25\ a\ las\ 20.57.42.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 10rem;
+    color: white;
+}
+.card-body {
+    color: black;
+}
+.container__pieDePagina {
+    background-color: rgb(43, 24, 66);
+    color: rgb(255, 255, 255);
+}
+.container__pieDePagina img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.container__formulario {
+    color: white;
+    border: solid white;
+    background-color: rgba(240, 248, 255, 0.292);
+    border-radius: 5px;
+}
+
+.container__carrousel {
+    width: 30%;
+}

@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cande Walker</title>
+    <meta name="description" content="Página de contacto del sitio web de Cande Walker, maquilladora profesional y streamer online, clases, tutoriales, retos y juegos.">
+    <meta name="keywords"  content="HTML, maquillaje, Artístico, social, profesional, eventos, producciones">
+    <title>Contacto - Cande Walker maquilladora profesional</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md py-2 navbar-dark">
           <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand" href="/index.html">
                   <img src="../assets/img/Logo.png" alt="logo Cande Walker" width="100">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,19 +24,19 @@
               <div class="collapse navbar-collapse navbar--type" id="navbarSupportedContent">
                   <ul class="navbar-nav ms-auto mb-1">
                         <li class="nav-item">
-                            <a class="nav-link fs-4 nav-link--color mx-4" href="index.html">Inicio</a>
+                            <a class="nav-link fs-4 nav-link--color mx-4" href="/index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-4 nav-link--color mx-4" href="pages/sobremi.html">Sobre mí</a>
+                            <a class="nav-link fs-4 nav-link--color mx-4" href="/pages/sobremi.html">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-4 nav-link--color mx-4" href="pages/galeria.html">Galería</a>
+                            <a class="nav-link fs-4 nav-link--color mx-4" href="/pages/galeria.html">Galería</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-4 nav-link--color mx-4" href="pages/stream.html">Stream</a>
+                            <a class="nav-link fs-4 nav-link--color mx-4" href="/pages/stream.html">Stream</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-4 nav-link--color" href="pages/contacto.html">Contacto</a>
+                            <a class="nav-link fs-4 nav-link--color" href="/pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -80,8 +82,8 @@
                                 <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Indique su evento y una breve descripción sobre su idea artística"></textarea>
                             </div>
                             <div>
-                                <input id="enviar" type="submit" value="Enviar">
-                                <input id="reset" type="reset" value="Borrar">
+                                <input class="container__formulario--botonsend" id="enviar" type="submit" value="Enviar">
+                                <input class="container__formulario--botonreset" id="reset" type="reset" value="Borrar">
                             </div>
                         </form>
                         <div class="my-5 location">
@@ -91,7 +93,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
                                 <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
                             </svg>
-                            <i class="bi bi-alarm-fill mx-2">Horario: de 9 hs a 16 hs</i>
+                            <i class="bi bi-alarm-fill mx-2">Horario de stream: de 20 hs a 23 hs</i>
                         </div>
                         <div class="my-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
@@ -104,7 +106,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope me-1" viewBox="0 0 16 16">
                                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                             </svg>
-                            <i class="bi bi-envelope mx-1"><a href="victoriasbakery@gmail.com">candearmy@outlook.com</a></i>
+                            <i class="bi bi-envelope mx-1"><a href="candearmy@outlook.com">candearmy@outlook.com</a></i>
                         </div>
                     </div>
                 </div> 
@@ -114,12 +116,12 @@
     <footer>
        <div class="container-fluid mt-5 text-center">
          <div class="container__pieDePagina py-1"> 
-           <a href="../index.html"><img src="../assets/img/Logo.png" class="img-fluid" alt="logo"></a>
+           <a href="/index.html"><img src="../assets/img/Logo.png" class="img-fluid" alt="logo"></a>
            <p class="fs-6 mt-2" >Seguime en mis redes Sociales<p>
            <a href="https://www.facebook.com/CandeWalkerBTSDT?mibextid=ZbWKwL" target="_blank" > <img class="img-fluid icono--redes mx-1" src="../assets/img/icons8-facebook-50.png" alt="facebook"> </a>
-           <a href="https://www.instagram.com/candewalker.mkp.studio/?igshid=OGQ2MjdiOTE%3D" target="_blank" > <img class="img-fluid icono--redes mx-1" src="../assets/img/icons8-instagram-50.png" alt=""> </a>
-           <a href="https://m.twitch.tv/candy_cw/home" target="_blank" > <img class="img-fluid icono--redes mx-1" src="../assets/img/icons8-twitch-50.png" alt=""> </a> 
-           <a href="https://www.youtube.com/@candewalker228" target="_blank" > <img class="img-fluid icono--redes mx-1" src="../assets/img/icons8-youtube-50.png" alt=""></a>
+           <a href="https://www.instagram.com/candewalker.mkp.studio/?igshid=OGQ2MjdiOTE%3D" target="_blank" > <img class="img-fluid icono--redes mx-1" src="../assets/img/icons8-instagram-50.png" alt="instagram"> </a>
+           <a href="https://m.twitch.tv/candy_cw/home" target="_blank" > <img class="img-fluid icono--redes mx-1" src="../assets/img/icons8-twitch-50.png" alt="twitch"> </a> 
+           <a href="https://www.youtube.com/@candewalker228" target="_blank" > <img class="img-fluid icono--redes mx-1" src="../assets/img/icons8-youtube-50.png" alt="youtube"></a>
          </div>
          <p class="text-bg-dark">Copyright © - Todos los Derechos Reservados - Desarrollado por Magaly Gallardo</p>
        </div>

@@ -1,0 +1,10 @@
+@mixin titulo {
+    @if $altura{
+        font-family: $fuente-secundaria; 
+        background-image: url(../assets/img/Imagen\ de\ WhatsApp\ 2023-01GGG-25\ a\ las\ 20.57.42.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: $color-primario;
+    }
+}

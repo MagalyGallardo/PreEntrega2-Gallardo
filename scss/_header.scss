@@ -1,0 +1,10 @@
+header{
+    background: $color-cuaternario;
+    background: linear-gradient(146deg, $color-cuaternario 19%, $color_secundario 53%, $color-cards 91%);
+    .nav-link--color {
+        color: $color-primario;
+        &:hover {
+            text-decoration: underline solid fuchsia;
+           }           
+        } 
+}

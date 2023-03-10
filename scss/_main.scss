@@ -1,0 +1,53 @@
+.container__tituloprincipal {
+    height: $altura;
+    @include titulo;
+}
+p {
+    font-family: $fuente-primaria;
+}
+
+.card-body {
+    color: $color-cards;
+}
+
+.container__carrousel {
+    width: 30%;
+}
+
+.container__fotos{
+    img{
+        height: 23rem;
+        width: 23rem;
+    }
+}
+
+.container__formulario {
+    color:$color-primario;
+    border: solid $color-primario;
+    background-color: $color-terciario;
+    border-radius: 5px;
+    .container__formulario--botonsend {
+        background-color: rgb(91, 134, 91);
+        color: $color-primario;
+        border: solid $color-primario;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+        &:hover{
+            -webkit-box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
+            -moz-box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
+            box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
+        }
+    }
+
+    .container__formulario--botonreset{
+        @extend .container__formulario--botonsend;
+        background-color: rgb(167, 62, 119);
+        &:hover{
+            -webkit-box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
+            -moz-box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
+            box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
+        }
+    }
+}
+

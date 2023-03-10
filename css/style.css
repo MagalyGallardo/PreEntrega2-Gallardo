@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/img/FONDO.jpg");
+  color: #ffffff;
+}
+
+header {
+  background: #2c1661;
+  background: linear-gradient(146deg, #2c1661 19%, #181129 53%, #000000 91%);
+}
+header .nav-link--color {
+  color: #ffffff;
+}
+header .nav-link--color:hover {
+  text-decoration: underline solid fuchsia;
+}
+
+.container__pieDePagina {
+  background-color: #181129;
+  color: #ffffff;
+}
+.container__pieDePagina img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.container__tituloprincipal {
+  height: 10rem;
+  font-family: "Electrolize", sans-serif;
+  background-image: url(../assets/img/Imagen\ de\ WhatsApp\ 2023-01GGG-25\ a\ las\ 20.57.42.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.card-body {
+  color: #000000;
+}
+
+.container__carrousel {
+  width: 30%;
+}
+
+.container__fotos img {
+  height: 23rem;
+  width: 23rem;
+}
+
+.container__formulario {
+  color: #ffffff;
+  border: solid #ffffff;
+  background-color: rgba(240, 248, 255, 0.2901960784);
+  border-radius: 5px;
+}
+.container__formulario .container__formulario--botonsend, .container__formulario .container__formulario--botonreset {
+  background-color: rgb(91, 134, 91);
+  color: #ffffff;
+  border: solid #ffffff;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.container__formulario .container__formulario--botonsend:hover, .container__formulario .container__formulario--botonreset:hover {
+  -webkit-box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
+  -moz-box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
+  box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
+}
+.container__formulario .container__formulario--botonreset {
+  background-color: rgb(167, 62, 119);
+}
+.container__formulario .container__formulario--botonreset:hover {
+  -webkit-box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
+  -moz-box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
+  box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
+}
+
+/*# sourceMappingURL=style.css.map */

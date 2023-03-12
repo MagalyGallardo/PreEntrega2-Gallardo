@@ -8,6 +8,22 @@ p {
 
 .card-body {
     color: $color-cards;
+    button {
+        transition: all 1s;
+        &:hover {
+            transform: scale(1,1);
+            background-color: $color-cuaternario;
+            letter-spacing: 1ch;
+            color: $color-primario;
+            box-shadow: 10px 10px 10px -4px $color-sombra-purple, -10px 10px 12px -4px $color-sombra-purple;
+    }
+    a{
+        color: $color-primario;
+        &:hover {
+            color: $color-primario;
+        }
+     }
+    }
 }
 
 .container__carrousel {
@@ -27,27 +43,29 @@ p {
     background-color: $color-terciario;
     border-radius: 5px;
     .container__formulario--botonsend {
-        background-color: rgb(91, 134, 91);
+        background-color: $color-boton-green;
         color: $color-primario;
         border: solid $color-primario;
         margin: 0.5rem;
         padding: 0.5rem;
         border-radius: 5px;
-        &:hover{
-            -webkit-box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
-            -moz-box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
-            box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1,1);
+            letter-spacing: 1ch;
+            -webkit-box-shadow: 10px 10px 10px -4px $color-sombre-green, -10px 10px 12px -4px $color-sombra-celeste;
+            -moz-box-shadow: 10px 10px 10px -4px $color-sombre-green, -10px 10px 12px -4px $color-sombra-celeste;
+            box-shadow: 10px 10px 10px -4px $color-sombre-green, -10px 10px 12px -4px $color-sombra-celeste;
         }
     }
 
     .container__formulario--botonreset{
         @extend .container__formulario--botonsend;
-        background-color: rgb(167, 62, 119);
+        background-color: $color-boton-pink;
         &:hover{
-            -webkit-box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
-            -moz-box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
-            box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
+            -webkit-box-shadow: 10px 10px 10px -4px $color-sombra-rosa, -10px 10px 12px -4px $color-sombra-purple;
+            -moz-box-shadow: 10px 10px 10px -4px $color-sombra-rosa, -10px 10px 12px -4px $color-sombra-purple;
+            box-shadow: 10px 10px 10px -4px $color-sombra-rosa, -10px 10px 12px -4px $color-sombra-purple;
         }
     }
 }
-

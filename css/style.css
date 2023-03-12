@@ -33,7 +33,7 @@ header .nav-link--color:hover {
 .container__tituloprincipal {
   height: 10rem;
   font-family: "Electrolize", sans-serif;
-  background-image: url(../assets/img/Imagen\ de\ WhatsApp\ 2023-01GGG-25\ a\ las\ 20.57.42.jpg);
+  background-image: url(../assets/img/Media_230312_131048.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -46,6 +46,22 @@ p {
 
 .card-body {
   color: #000000;
+}
+.card-body button {
+  transition: all 1s;
+}
+.card-body button:hover {
+  transform: scale(1, 1);
+  background-color: #2c1661;
+  letter-spacing: 1ch;
+  color: #ffffff;
+  box-shadow: 10px 10px 10px -4px #a63fd3, -10px 10px 12px -4px #a63fd3;
+}
+.card-body button a {
+  color: #ffffff;
+}
+.card-body button a:hover {
+  color: #ffffff;
 }
 
 .container__carrousel {
@@ -64,25 +80,28 @@ p {
   border-radius: 5px;
 }
 .container__formulario .container__formulario--botonsend, .container__formulario .container__formulario--botonreset {
-  background-color: rgb(91, 134, 91);
+  background-color: #5b865b;
   color: #ffffff;
   border: solid #ffffff;
   margin: 0.5rem;
   padding: 0.5rem;
   border-radius: 5px;
+  transition: all 1s;
 }
 .container__formulario .container__formulario--botonsend:hover, .container__formulario .container__formulario--botonreset:hover {
+  transform: scale(1, 1);
+  letter-spacing: 1ch;
   -webkit-box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
   -moz-box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
   box-shadow: 10px 10px 10px -4px #7bc980, -10px 10px 12px -4px #8ebbe4;
 }
 .container__formulario .container__formulario--botonreset {
-  background-color: rgb(167, 62, 119);
+  background-color: #a73e77;
 }
 .container__formulario .container__formulario--botonreset:hover {
-  -webkit-box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
-  -moz-box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
-  box-shadow: 10px 10px 10px -4px #c96788, -10px 10px 12px -4px #a63fd3;
+  -webkit-box-shadow: 10px 10px 10px -4px #a73e77, -10px 10px 12px -4px #a63fd3;
+  -moz-box-shadow: 10px 10px 10px -4px #a73e77, -10px 10px 12px -4px #a63fd3;
+  box-shadow: 10px 10px 10px -4px #a73e77, -10px 10px 12px -4px #a63fd3;
 }
 
 /*# sourceMappingURL=style.css.map */
